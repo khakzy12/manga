@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "title": "One Piece",
+    "author": "Author 1",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 12,
+    "chapter": 1,
+    "description": "This is a manually entered description for One Piece Vol. 1.",
+    "source": "Manual"
+  },
+  {
+    "id": 2,
+    "title": "Naruto",
+    "author": "Author 2",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 14,
+    "chapter": 1,
+    "description": "This is a manually entered description for Naruto Vol. 1.",
+    "source": "Manual"
+  },
+  {
+    "id": 3,
+    "title": "Bleach",
+    "author": "Author 3",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 16,
+    "chapter": 1,
+    "description": "This is a manually entered description for Bleach Vol. 1.",
+    "source": "Manual"
+  },
+  {
+    "id": 4,
+    "title": "Nana",
+    "author": "Author 4",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 18,
+    "chapter": 1,
+    "description": "This is a manually entered description for Nana Vol. 1.",
+    "source": "Manual"
+  },
+  {
+    "id": 5,
+    "title": "Fruits Basket",
+    "author": "Author 5",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 20,
+    "chapter": 1,
+    "description": "This is a manually entered description for Fruits Basket Vol. 1.",
+    "source": "Manual"
+  },
+  {
+    "id": 6,
+    "title": "Monster",
+    "author": "Author 6",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 22,
+    "chapter": 1,
+    "description": "This is a manually entered description for Monster Vol. 1.",
+    "source": "Manual"
+  },
+  {
+    "id": 7,
+    "title": "Berserk",
+    "author": "Author 7",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 24,
+    "chapter": 1,
+    "description": "This is a manually entered description for Berserk Vol. 1.",
+    "source": "Manual"
+  },
+  {
+    "id": 8,
+    "title": "Midnight Secretary",
+    "author": "Author 8",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 26,
+    "chapter": 1,
+    "description": "This is a manually entered description for Midnight Secretary Vol. 1.",
+    "source": "Manual"
+  },
+  {
+    "id": 9,
+    "title": "Blue Box",
+    "author": "Author 9",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 28,
+    "chapter": 1,
+    "description": "This is a manually entered description for Blue Box Vol. 1.",
+    "source": "Manual"
+  },
+  {
+    "id": 10,
+    "title": "Vagabond",
+    "author": "Author 10",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 30,
+    "chapter": 1,
+    "description": "This is a manually entered description for Vagabond Vol. 1.",
+    "source": "Manual"
+  },
+  {
+    "id": 11,
+    "title": "One Piece",
+    "author": "Author 11",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 32,
+    "chapter": 2,
+    "description": "This is a manually entered description for One Piece Vol. 2.",
+    "source": "Manual"
+  },
+  {
+    "id": 12,
+    "title": "Naruto",
+    "author": "Author 12",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 34,
+    "chapter": 2,
+    "description": "This is a manually entered description for Naruto Vol. 2.",
+    "source": "Manual"
+  },
+  {
+    "id": 13,
+    "title": "Bleach",
+    "author": "Author 13",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 36,
+    "chapter": 2,
+    "description": "This is a manually entered description for Bleach Vol. 2.",
+    "source": "Manual"
+  },
+  {
+    "id": 14,
+    "title": "Nana",
+    "author": "Author 14",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 38,
+    "chapter": 2,
+    "description": "This is a manually entered description for Nana Vol. 2.",
+    "source": "Manual"
+  },
+  {
+    "id": 15,
+    "title": "Fruits Basket",
+    "author": "Author 15",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 40,
+    "chapter": 2,
+    "description": "This is a manually entered description for Fruits Basket Vol. 2.",
+    "source": "Manual"
+  },
+  {
+    "id": 16,
+    "title": "Monster",
+    "author": "Author 16",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 42,
+    "chapter": 2,
+    "description": "This is a manually entered description for Monster Vol. 2.",
+    "source": "Manual"
+  },
+  {
+    "id": 17,
+    "title": "Berserk",
+    "author": "Author 17",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 44,
+    "chapter": 2,
+    "description": "This is a manually entered description for Berserk Vol. 2.",
+    "source": "Manual"
+  },
+  {
+    "id": 18,
+    "title": "Midnight Secretary",
+    "author": "Author 18",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 46,
+    "chapter": 2,
+    "description": "This is a manually entered description for Midnight Secretary Vol. 2.",
+    "source": "Manual"
+  },
+  {
+    "id": 19,
+    "title": "Blue Box",
+    "author": "Author 19",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 48,
+    "chapter": 2,
+    "description": "This is a manually entered description for Blue Box Vol. 2.",
+    "source": "Manual"
+  },
+  {
+    "id": 20,
+    "title": "Vagabond",
+    "author": "Author 20",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 50,
+    "chapter": 2,
+    "description": "This is a manually entered description for Vagabond Vol. 2.",
+    "source": "Manual"
+  },
+  {
+    "id": 21,
+    "title": "One Piece",
+    "author": "Author 21",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 52,
+    "chapter": 3,
+    "description": "This is a manually entered description for One Piece Vol. 3.",
+    "source": "Manual"
+  },
+  {
+    "id": 22,
+    "title": "Naruto",
+    "author": "Author 22",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 54,
+    "chapter": 3,
+    "description": "This is a manually entered description for Naruto Vol. 3.",
+    "source": "Manual"
+  },
+  {
+    "id": 23,
+    "title": "Bleach",
+    "author": "Author 23",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 56,
+    "chapter": 3,
+    "description": "This is a manually entered description for Bleach Vol. 3.",
+    "source": "Manual"
+  },
+  {
+    "id": 24,
+    "title": "Nana",
+    "author": "Author 24",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 58,
+    "chapter": 3,
+    "description": "This is a manually entered description for Nana Vol. 3.",
+    "source": "Manual"
+  },
+  {
+    "id": 25,
+    "title": "Fruits Basket",
+    "author": "Author 25",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 60,
+    "chapter": 3,
+    "description": "This is a manually entered description for Fruits Basket Vol. 3.",
+    "source": "Manual"
+  },
+  {
+    "id": 26,
+    "title": "Monster",
+    "author": "Author 26",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 62,
+    "chapter": 3,
+    "description": "This is a manually entered description for Monster Vol. 3.",
+    "source": "Manual"
+  },
+  {
+    "id": 27,
+    "title": "Berserk",
+    "author": "Author 27",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 64,
+    "chapter": 3,
+    "description": "This is a manually entered description for Berserk Vol. 3.",
+    "source": "Manual"
+  },
+  {
+    "id": 28,
+    "title": "Midnight Secretary",
+    "author": "Author 28",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 66,
+    "chapter": 3,
+    "description": "This is a manually entered description for Midnight Secretary Vol. 3.",
+    "source": "Manual"
+  },
+  {
+    "id": 29,
+    "title": "Blue Box",
+    "author": "Author 29",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 68,
+    "chapter": 3,
+    "description": "This is a manually entered description for Blue Box Vol. 3.",
+    "source": "Manual"
+  },
+  {
+    "id": 30,
+    "title": "Vagabond",
+    "author": "Author 30",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 70,
+    "chapter": 3,
+    "description": "This is a manually entered description for Vagabond Vol. 3.",
+    "source": "Manual"
+  },
+  {
+    "id": 31,
+    "title": "One Piece",
+    "author": "Author 31",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 72,
+    "chapter": 4,
+    "description": "This is a manually entered description for One Piece Vol. 4.",
+    "source": "Manual"
+  },
+  {
+    "id": 32,
+    "title": "Naruto",
+    "author": "Author 32",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 74,
+    "chapter": 4,
+    "description": "This is a manually entered description for Naruto Vol. 4.",
+    "source": "Manual"
+  },
+  {
+    "id": 33,
+    "title": "Bleach",
+    "author": "Author 33",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 76,
+    "chapter": 4,
+    "description": "This is a manually entered description for Bleach Vol. 4.",
+    "source": "Manual"
+  },
+  {
+    "id": 34,
+    "title": "Nana",
+    "author": "Author 34",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 78,
+    "chapter": 4,
+    "description": "This is a manually entered description for Nana Vol. 4.",
+    "source": "Manual"
+  },
+  {
+    "id": 35,
+    "title": "Fruits Basket",
+    "author": "Author 35",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 80,
+    "chapter": 4,
+    "description": "This is a manually entered description for Fruits Basket Vol. 4.",
+    "source": "Manual"
+  },
+  {
+    "id": 36,
+    "title": "Monster",
+    "author": "Author 36",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 82,
+    "chapter": 4,
+    "description": "This is a manually entered description for Monster Vol. 4.",
+    "source": "Manual"
+  },
+  {
+    "id": 37,
+    "title": "Berserk",
+    "author": "Author 37",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 84,
+    "chapter": 4,
+    "description": "This is a manually entered description for Berserk Vol. 4.",
+    "source": "Manual"
+  },
+  {
+    "id": 38,
+    "title": "Midnight Secretary",
+    "author": "Author 38",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 86,
+    "chapter": 4,
+    "description": "This is a manually entered description for Midnight Secretary Vol. 4.",
+    "source": "Manual"
+  },
+  {
+    "id": 39,
+    "title": "Blue Box",
+    "author": "Author 39",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 88,
+    "chapter": 4,
+    "description": "This is a manually entered description for Blue Box Vol. 4.",
+    "source": "Manual"
+  },
+  {
+    "id": 40,
+    "title": "Vagabond",
+    "author": "Author 40",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 90,
+    "chapter": 4,
+    "description": "This is a manually entered description for Vagabond Vol. 4.",
+    "source": "Manual"
+  },
+  {
+    "id": 41,
+    "title": "One Piece",
+    "author": "Author 41",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 92,
+    "chapter": 5,
+    "description": "This is a manually entered description for One Piece Vol. 5.",
+    "source": "Manual"
+  },
+  {
+    "id": 42,
+    "title": "Naruto",
+    "author": "Author 42",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 94,
+    "chapter": 5,
+    "description": "This is a manually entered description for Naruto Vol. 5.",
+    "source": "Manual"
+  },
+  {
+    "id": 43,
+    "title": "Bleach",
+    "author": "Author 43",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 96,
+    "chapter": 5,
+    "description": "This is a manually entered description for Bleach Vol. 5.",
+    "source": "Manual"
+  },
+  {
+    "id": 44,
+    "title": "Nana",
+    "author": "Author 44",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 98,
+    "chapter": 5,
+    "description": "This is a manually entered description for Nana Vol. 5.",
+    "source": "Manual"
+  },
+  {
+    "id": 45,
+    "title": "Fruits Basket",
+    "author": "Author 45",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 100,
+    "chapter": 5,
+    "description": "This is a manually entered description for Fruits Basket Vol. 5.",
+    "source": "Manual"
+  },
+  {
+    "id": 46,
+    "title": "Monster",
+    "author": "Author 46",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 102,
+    "chapter": 5,
+    "description": "This is a manually entered description for Monster Vol. 5.",
+    "source": "Manual"
+  },
+  {
+    "id": 47,
+    "title": "Berserk",
+    "author": "Author 47",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 104,
+    "chapter": 5,
+    "description": "This is a manually entered description for Berserk Vol. 5.",
+    "source": "Manual"
+  },
+  {
+    "id": 48,
+    "title": "Midnight Secretary",
+    "author": "Author 48",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 106,
+    "chapter": 5,
+    "description": "This is a manually entered description for Midnight Secretary Vol. 5.",
+    "source": "Manual"
+  },
+  {
+    "id": 49,
+    "title": "Blue Box",
+    "author": "Author 49",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 108,
+    "chapter": 5,
+    "description": "This is a manually entered description for Blue Box Vol. 5.",
+    "source": "Manual"
+  },
+  {
+    "id": 50,
+    "title": "Vagabond",
+    "author": "Author 50",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 110,
+    "chapter": 5,
+    "description": "This is a manually entered description for Vagabond Vol. 5.",
+    "source": "Manual"
+  },
+  {
+    "id": 51,
+    "title": "One Piece",
+    "author": "Author 51",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 112,
+    "chapter": 6,
+    "description": "This is a manually entered description for One Piece Vol. 6.",
+    "source": "Manual"
+  },
+  {
+    "id": 52,
+    "title": "Naruto",
+    "author": "Author 52",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 114,
+    "chapter": 6,
+    "description": "This is a manually entered description for Naruto Vol. 6.",
+    "source": "Manual"
+  },
+  {
+    "id": 53,
+    "title": "Bleach",
+    "author": "Author 53",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 116,
+    "chapter": 6,
+    "description": "This is a manually entered description for Bleach Vol. 6.",
+    "source": "Manual"
+  },
+  {
+    "id": 54,
+    "title": "Nana",
+    "author": "Author 54",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 118,
+    "chapter": 6,
+    "description": "This is a manually entered description for Nana Vol. 6.",
+    "source": "Manual"
+  },
+  {
+    "id": 55,
+    "title": "Fruits Basket",
+    "author": "Author 55",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 120,
+    "chapter": 6,
+    "description": "This is a manually entered description for Fruits Basket Vol. 6.",
+    "source": "Manual"
+  },
+  {
+    "id": 56,
+    "title": "Monster",
+    "author": "Author 56",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 122,
+    "chapter": 6,
+    "description": "This is a manually entered description for Monster Vol. 6.",
+    "source": "Manual"
+  },
+  {
+    "id": 57,
+    "title": "Berserk",
+    "author": "Author 57",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 124,
+    "chapter": 6,
+    "description": "This is a manually entered description for Berserk Vol. 6.",
+    "source": "Manual"
+  },
+  {
+    "id": 58,
+    "title": "Midnight Secretary",
+    "author": "Author 58",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 126,
+    "chapter": 6,
+    "description": "This is a manually entered description for Midnight Secretary Vol. 6.",
+    "source": "Manual"
+  },
+  {
+    "id": 59,
+    "title": "Blue Box",
+    "author": "Author 59",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 128,
+    "chapter": 6,
+    "description": "This is a manually entered description for Blue Box Vol. 6.",
+    "source": "Manual"
+  },
+  {
+    "id": 60,
+    "title": "Vagabond",
+    "author": "Author 60",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 130,
+    "chapter": 6,
+    "description": "This is a manually entered description for Vagabond Vol. 6.",
+    "source": "Manual"
+  },
+  {
+    "id": 61,
+    "title": "One Piece",
+    "author": "Author 61",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 132,
+    "chapter": 7,
+    "description": "This is a manually entered description for One Piece Vol. 7.",
+    "source": "Manual"
+  },
+  {
+    "id": 62,
+    "title": "Naruto",
+    "author": "Author 62",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 134,
+    "chapter": 7,
+    "description": "This is a manually entered description for Naruto Vol. 7.",
+    "source": "Manual"
+  },
+  {
+    "id": 63,
+    "title": "Bleach",
+    "author": "Author 63",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 136,
+    "chapter": 7,
+    "description": "This is a manually entered description for Bleach Vol. 7.",
+    "source": "Manual"
+  },
+  {
+    "id": 64,
+    "title": "Nana",
+    "author": "Author 64",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 138,
+    "chapter": 7,
+    "description": "This is a manually entered description for Nana Vol. 7.",
+    "source": "Manual"
+  },
+  {
+    "id": 65,
+    "title": "Fruits Basket",
+    "author": "Author 65",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 140,
+    "chapter": 7,
+    "description": "This is a manually entered description for Fruits Basket Vol. 7.",
+    "source": "Manual"
+  },
+  {
+    "id": 66,
+    "title": "Monster",
+    "author": "Author 66",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 142,
+    "chapter": 7,
+    "description": "This is a manually entered description for Monster Vol. 7.",
+    "source": "Manual"
+  },
+  {
+    "id": 67,
+    "title": "Berserk",
+    "author": "Author 67",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 144,
+    "chapter": 7,
+    "description": "This is a manually entered description for Berserk Vol. 7.",
+    "source": "Manual"
+  },
+  {
+    "id": 68,
+    "title": "Midnight Secretary",
+    "author": "Author 68",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 146,
+    "chapter": 7,
+    "description": "This is a manually entered description for Midnight Secretary Vol. 7.",
+    "source": "Manual"
+  },
+  {
+    "id": 69,
+    "title": "Blue Box",
+    "author": "Author 69",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 148,
+    "chapter": 7,
+    "description": "This is a manually entered description for Blue Box Vol. 7.",
+    "source": "Manual"
+  },
+  {
+    "id": 70,
+    "title": "Vagabond",
+    "author": "Author 70",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 150,
+    "chapter": 7,
+    "description": "This is a manually entered description for Vagabond Vol. 7.",
+    "source": "Manual"
+  },
+  {
+    "id": 71,
+    "title": "One Piece",
+    "author": "Author 71",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 152,
+    "chapter": 8,
+    "description": "This is a manually entered description for One Piece Vol. 8.",
+    "source": "Manual"
+  },
+  {
+    "id": 72,
+    "title": "Naruto",
+    "author": "Author 72",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 154,
+    "chapter": 8,
+    "description": "This is a manually entered description for Naruto Vol. 8.",
+    "source": "Manual"
+  },
+  {
+    "id": 73,
+    "title": "Bleach",
+    "author": "Author 73",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 156,
+    "chapter": 8,
+    "description": "This is a manually entered description for Bleach Vol. 8.",
+    "source": "Manual"
+  },
+  {
+    "id": 74,
+    "title": "Nana",
+    "author": "Author 74",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 158,
+    "chapter": 8,
+    "description": "This is a manually entered description for Nana Vol. 8.",
+    "source": "Manual"
+  },
+  {
+    "id": 75,
+    "title": "Fruits Basket",
+    "author": "Author 75",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 160,
+    "chapter": 8,
+    "description": "This is a manually entered description for Fruits Basket Vol. 8.",
+    "source": "Manual"
+  },
+  {
+    "id": 76,
+    "title": "Monster",
+    "author": "Author 76",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 162,
+    "chapter": 8,
+    "description": "This is a manually entered description for Monster Vol. 8.",
+    "source": "Manual"
+  },
+  {
+    "id": 77,
+    "title": "Berserk",
+    "author": "Author 77",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 164,
+    "chapter": 8,
+    "description": "This is a manually entered description for Berserk Vol. 8.",
+    "source": "Manual"
+  },
+  {
+    "id": 78,
+    "title": "Midnight Secretary",
+    "author": "Author 78",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 166,
+    "chapter": 8,
+    "description": "This is a manually entered description for Midnight Secretary Vol. 8.",
+    "source": "Manual"
+  },
+  {
+    "id": 79,
+    "title": "Blue Box",
+    "author": "Author 79",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 168,
+    "chapter": 8,
+    "description": "This is a manually entered description for Blue Box Vol. 8.",
+    "source": "Manual"
+  },
+  {
+    "id": 80,
+    "title": "Vagabond",
+    "author": "Author 80",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 170,
+    "chapter": 8,
+    "description": "This is a manually entered description for Vagabond Vol. 8.",
+    "source": "Manual"
+  },
+  {
+    "id": 81,
+    "title": "One Piece",
+    "author": "Author 81",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 172,
+    "chapter": 9,
+    "description": "This is a manually entered description for One Piece Vol. 9.",
+    "source": "Manual"
+  },
+  {
+    "id": 82,
+    "title": "Naruto",
+    "author": "Author 82",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 174,
+    "chapter": 9,
+    "description": "This is a manually entered description for Naruto Vol. 9.",
+    "source": "Manual"
+  },
+  {
+    "id": 83,
+    "title": "Bleach",
+    "author": "Author 83",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 176,
+    "chapter": 9,
+    "description": "This is a manually entered description for Bleach Vol. 9.",
+    "source": "Manual"
+  },
+  {
+    "id": 84,
+    "title": "Nana",
+    "author": "Author 84",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 178,
+    "chapter": 9,
+    "description": "This is a manually entered description for Nana Vol. 9.",
+    "source": "Manual"
+  },
+  {
+    "id": 85,
+    "title": "Fruits Basket",
+    "author": "Author 85",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 180,
+    "chapter": 9,
+    "description": "This is a manually entered description for Fruits Basket Vol. 9.",
+    "source": "Manual"
+  },
+  {
+    "id": 86,
+    "title": "Monster",
+    "author": "Author 86",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 182,
+    "chapter": 9,
+    "description": "This is a manually entered description for Monster Vol. 9.",
+    "source": "Manual"
+  },
+  {
+    "id": 87,
+    "title": "Berserk",
+    "author": "Author 87",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 184,
+    "chapter": 9,
+    "description": "This is a manually entered description for Berserk Vol. 9.",
+    "source": "Manual"
+  },
+  {
+    "id": 88,
+    "title": "Midnight Secretary",
+    "author": "Author 88",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 186,
+    "chapter": 9,
+    "description": "This is a manually entered description for Midnight Secretary Vol. 9.",
+    "source": "Manual"
+  },
+  {
+    "id": 89,
+    "title": "Blue Box",
+    "author": "Author 89",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 188,
+    "chapter": 9,
+    "description": "This is a manually entered description for Blue Box Vol. 9.",
+    "source": "Manual"
+  },
+  {
+    "id": 90,
+    "title": "Vagabond",
+    "author": "Author 90",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 190,
+    "chapter": 9,
+    "description": "This is a manually entered description for Vagabond Vol. 9.",
+    "source": "Manual"
+  },
+  {
+    "id": 91,
+    "title": "One Piece",
+    "author": "Author 91",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 192,
+    "chapter": 10,
+    "description": "This is a manually entered description for One Piece Vol. 10.",
+    "source": "Manual"
+  },
+  {
+    "id": 92,
+    "title": "Naruto",
+    "author": "Author 92",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 194,
+    "chapter": 10,
+    "description": "This is a manually entered description for Naruto Vol. 10.",
+    "source": "Manual"
+  },
+  {
+    "id": 93,
+    "title": "Bleach",
+    "author": "Author 93",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 196,
+    "chapter": 10,
+    "description": "This is a manually entered description for Bleach Vol. 10.",
+    "source": "Manual"
+  },
+  {
+    "id": 94,
+    "title": "Nana",
+    "author": "Author 94",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 198,
+    "chapter": 10,
+    "description": "This is a manually entered description for Nana Vol. 10.",
+    "source": "Manual"
+  },
+  {
+    "id": 95,
+    "title": "Fruits Basket",
+    "author": "Author 95",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 200,
+    "chapter": 10,
+    "description": "This is a manually entered description for Fruits Basket Vol. 10.",
+    "source": "Manual"
+  },
+  {
+    "id": 96,
+    "title": "Monster",
+    "author": "Author 96",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 202,
+    "chapter": 10,
+    "description": "This is a manually entered description for Monster Vol. 10.",
+    "source": "Manual"
+  },
+  {
+    "id": 97,
+    "title": "Berserk",
+    "author": "Author 97",
+    "genres": [
+      "Shoujo",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 204,
+    "chapter": 10,
+    "description": "This is a manually entered description for Berserk Vol. 10.",
+    "source": "Manual"
+  },
+  {
+    "id": 98,
+    "title": "Midnight Secretary",
+    "author": "Author 98",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 206,
+    "chapter": 10,
+    "description": "This is a manually entered description for Midnight Secretary Vol. 10.",
+    "source": "Manual"
+  },
+  {
+    "id": 99,
+    "title": "Blue Box",
+    "author": "Author 99",
+    "genres": [
+      "Josei",
+      "Action",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 208,
+    "chapter": 10,
+    "description": "This is a manually entered description for Blue Box Vol. 10.",
+    "source": "Manual"
+  },
+  {
+    "id": 100,
+    "title": "Vagabond",
+    "author": "Author 100",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 210,
+    "chapter": 10,
+    "description": "This is a manually entered description for Vagabond Vol. 10.",
+    "source": "Manual"
+  }
+]
