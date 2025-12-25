@@ -21,7 +21,7 @@ type mangaServer struct {
 
 // Implement the GetManga RPC
 func (s *mangaServer) GetManga(ctx context.Context, req *proto.GetMangaRequest) (*proto.MangaResponse, error) {
-	fmt.Printf("gRPC Server received request for ID: %s\n", req.Id)
+	fmt.Printf("🔍 gRPC Server received request for ID: %s\n", req.Id)
 
 	var m proto.MangaResponse
 	var genresRaw string // Temporary variable to hold the JSON text from DB
@@ -29,24 +29,26 @@ func (s *mangaServer) GetManga(ctx context.Context, req *proto.GetMangaRequest) 
 	// Use LOWER to make the search case-insensitive
 	query := `SELECT id, title, author, genres, status, total_chapters, description 
               FROM manga 
-              WHERE id LIKE ? OR title LIKE ? LIMIT 1`
+              WHERE LOWER(id) LIKE LOWER(?) OR LOWER(title) LIKE LOWER(?) LIMIT 1`
 	cleanId := strings.ReplaceAll(req.Id, " ", "%")
 	searchParam := "%" + cleanId + "%"
+
+	fmt.Printf("📊 gRPC Server: Executing query with param: %s\n", searchParam)
 
 	err := s.DB.QueryRow(query, searchParam, searchParam).Scan(
 		&m.Id, &m.Title, &m.Author, &genresRaw, &m.Status, &m.TotalChapters, &m.Description,
 	)
 
 	if err != nil {
-		fmt.Printf("❌ Database Search Error: %v\n", err)
-		return nil, err
+		fmt.Printf("❌ gRPC Server: Database Search Error: %v\n", err)
+		return nil, fmt.Errorf("manga not found: %w", err)
 	}
 
 	// Convert the text ["Shounen"] back into the gRPC slice []string
 	// Simple way: trim the brackets and quotes, or use json.Unmarshal
 	m.Genres = strings.Split(strings.Trim(genresRaw, "[]\" "), "\",\"")
 
-	fmt.Printf("✅ Found: %s\n", m.Title)
+	fmt.Printf("✅ gRPC Server: Found: %s (ID: %s)\n", m.Title, m.Id)
 	return &m, nil
 }
 

@@ -10,10 +10,15 @@ go run cmd/seed/main.go
 
 :: Step 2: Start background services
 echo 🛰️  Starting gRPC Server...
-start "gRPC Server" go run cmd/grpc-server/main.go
+start "gRPC Server" cmd /k "go run cmd/grpc-server/main.go"
+
+echo ⏳ Waiting for gRPC Server to start...
+timeout /t 5 /nobreak > nul
 
 echo 🛰️  Starting TCP Sync Server...
-start "TCP Server" go run cmd/tcp-server/main.go
+start "TCP Server" cmd /k "go run cmd/tcp-server/main.go"
+
+timeout /t 2 /nobreak > nul
 
 :: Step 3: Start the Gateway (This stays in the main window)
 echo 🌐 Starting API Gateway on http://localhost:8080...

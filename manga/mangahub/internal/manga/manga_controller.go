@@ -17,17 +17,21 @@ type MangaController struct {
 // GET /manga/:id
 func (mc *MangaController) GetMangaDetails(c *gin.Context) {
 	id := c.Param("id")
+	println("🔍 API Gateway: Searching for manga with ID:", id)
 
-	ctx, cancel := context.WithTimeout(context.Background(), time.Second)
+	ctx, cancel := context.WithTimeout(context.Background(), time.Second*5)
 	defer cancel()
 
 	// Calling the gRPC Internal Service (Requirement 5)
+	println("📡 API Gateway: Calling gRPC server...")
 	resp, err := mc.GRPCClient.GetManga(ctx, &proto.GetMangaRequest{Id: id})
 	if err != nil {
-		c.JSON(http.StatusNotFound, gin.H{"error": "Manga not found"})
+		println("❌ API Gateway: gRPC error:", err.Error())
+		c.JSON(http.StatusNotFound, gin.H{"error": "Manga not found", "details": err.Error()})
 		return
 	}
 
+	println("✅ API Gateway: Found manga:", resp.Title)
 	c.JSON(http.StatusOK, resp)
 }
 
