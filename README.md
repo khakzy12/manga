@@ -1,4 +1,3 @@
-Here is the full **README.md** content, optimized for **Windows** and written entirely in **English**.
 
 ---
 
@@ -14,9 +13,9 @@ A comprehensive manga management system demonstrating multiple network protocols
 * [Project Structure](https://www.google.com/search?q=%23project-structure)
 * [Building the Project](https://www.google.com/search?q=%23building-the-project)
 * [Running the Servers](https://www.google.com/search?q=%23running-the-servers)
-* [Testing on Windows](https://www.google.com/search?q=%23testing-on-windows)
+* [Testing](https://www.google.com/search?q=%23testing)
 * [Database Management](https://www.google.com/search?q=%23database-management)
-* [Windows-Specific Notes](https://www.google.com/search?q=%23windows-specific-notes)
+* [Troubleshooting](https://www.google.com/search?q=%23troubleshooting)
 
 ---
 
@@ -26,36 +25,33 @@ MangaHub consists of 5 server components and a CLI application:
 
 | Component | Port | Protocol | Description |
 | --- | --- | --- | --- |
-| **API Server** | 8080 | HTTP/REST | User authentication and library management |
-| **TCP Server** | 9090 | TCP | Real-time reading progress synchronization |
+| **API Server** | 8080 | HTTP/REST | User authentication and manga management |
+| **TCP Server** | 9090 | TCP | Real-time progress synchronization |
 | **UDP Server** | 9091 | UDP | Broadcast notifications for new releases |
-| **gRPC Server** | 9092 | gRPC | High-performance internal data operations |
-| **WebSocket Server** | 9093 | WebSocket | Real-time community chat functionality |
+| **gRPC Server** | 9092 | gRPC | Manga operations via Protocol Buffers |
+| **WebSocket Server** | 9093 | WebSocket | Real-time chat functionality |
+| **CLI App** | - | - | Unified command-line interface |
 
 ---
 
-## Prerequisites (Windows)
+## Prerequisites
 
-### 1. Install Go
+### 1. Go (version 1.21 or later)
 
-* Download the `.msi` installer from [golang.org/dl](https://golang.org/dl/).
-* Verify installation in PowerShell:
-```powershell
-go version
+* Download the installer from [golang.org/dl](https://golang.org/dl/).
+* Run the `.msi` file and follow the instructions.
+* Verify in PowerShell: `go version`
 
-```
+### 2. Protocol Buffers Compiler (protoc)
 
+* Download `protoc-xx.x-win64.zip` from the [Protobuf Releases page](https://github.com/protocolbuffers/protobuf/releases).
+* Extract it to a folder (e.g., `C:\protoc`).
+* Add `C:\protoc\bin` to your system **Environment Variables (Path)**.
+* Verify in PowerShell: `protoc --version`
 
+### 3. Go Protobuf Plugins
 
-### 2. Install Protocol Buffers (protoc)
-
-* Download `protoc-xx.x-win64.zip` from [GitHub Releases](https://github.com/protocolbuffers/protobuf/releases).
-* Extract it to a permanent folder (e.g., `C:\proto`).
-* Add the `bin` folder (e.g., `C:\proto\bin`) to your **Environment Variables (Path)**.
-
-### 3. Install Go Protobuf Plugins
-
-Open PowerShell and run:
+Run these commands in PowerShell:
 
 ```powershell
 go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
@@ -63,27 +59,41 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 
 ```
 
-**Note:** Ensure `%USERPROFILE%\go\bin` is added to your Windows **Path** to execute `protoc-gen-go`.
+### 4. Setting Up PATH for Go Plugins
+
+The plugins are installed in `%USERPROFILE%\go\bin`. You must add this to your **Path**:
+
+1. Search for "Edit the system environment variables" in the Start menu.
+2. Click **Environment Variables**.
+3. Under "User variables", select **Path** and click **Edit**.
+4. Click **New** and paste: `%USERPROFILE%\go\bin`
+5. Click OK and **restart your terminal**.
+
+### 5. Network Tools
+
+* **curl**: Pre-installed on Windows 10 (version 1803+) and Windows 11.
+* **ncat**: Included with [Nmap](https://nmap.org/download.html) (recommended for TCP/UDP testing) or use the built-in CLI app.
 
 ---
 
 ## Installation
 
-1. Navigate to the project directory:
+1. Open PowerShell and navigate to the project directory:
+
 ```powershell
-cd "C:\Path\To\Your\Project\mangahub"
+cd C:\Users\YourName\Documents\mangahub
 
 ```
 
-
 2. Install Go dependencies:
+
 ```powershell
 go mod tidy
 
 ```
 
-
 3. Generate Protocol Buffer code:
+
 ```powershell
 cd pkg\proto
 protoc --go_out=. --go_opt=paths=source_relative `
@@ -93,13 +103,18 @@ cd ..\..
 
 ```
 
-
-
 ---
 
 ## Building the Project
 
-To create `.exe` executables for Windows:
+### Build CLI Application
+
+```powershell
+go build -o mangahub.exe cmd\cli-app\main.go
+
+```
+
+### Build Individual Servers
 
 ```powershell
 # API Server
@@ -111,8 +126,11 @@ go build -o tcp-server.exe cmd\tcp-server\main.go
 # UDP Server
 go build -o udp-server.exe cmd\udp-server\main.go
 
-# CLI App
-go build -o mangahub.exe cmd\cli-app\main.go
+# gRPC Server
+go build -o grpc-server.exe cmd\grpc-server\main.go
+
+# WebSocket Server
+go build -o websocket-server.exe cmd\websocket-server\main.go
 
 ```
 
@@ -120,54 +138,68 @@ go build -o mangahub.exe cmd\cli-app\main.go
 
 ## Running the Servers
 
-Open each server in a separate **PowerShell** or **Command Prompt** window:
+**Note:** Run each server in a **separate** PowerShell window or terminal tab.
 
-* **Terminal 1 (API):** `go run cmd\api-server\main.go`
-* **Terminal 2 (TCP):** `go run cmd\tcp-server\main.go`
-* **Terminal 3 (UDP):** `go run cmd\udp-server\main.go`
+1. **API Server:** `go run cmd\api-server\main.go` (Port 8080)
+2. **TCP Server:** `go run cmd\tcp-server\main.go` (Port 9090)
+3. **UDP Server:** `go run cmd\udp-server\main.go` (Port 9091)
+4. **gRPC Server:** `go run cmd\grpc-server\main.go` (Port 9092)
+5. **WebSocket Server:** `go run cmd\websocket-server\main.go` (Port 9093)
 
 ---
 
-## Testing on Windows
+## Testing
 
-### 1. HTTP API (Using native Windows curl.exe)
+### 1. Test HTTP API Server
 
 **Register:**
 
 ```powershell
-curl.exe -X POST http://localhost:8080/auth/register -H "Content-Type: application/json" -d '{\"username\":\"testuser\",\"password\":\"password123\"}'
+curl.exe -X POST http://localhost:8080/auth/register `
+  -H "Content-Type: application/json" `
+  -d '{\"username\":\"testuser\",\"password\":\"testpass123\"}'
 
 ```
 
-**Login (To get JWT Token):**
+**Login:**
 
 ```powershell
-curl.exe -X POST http://localhost:8080/auth/login -H "Content-Type: application/json" -d '{\"username\":\"testuser\",\"password\":\"password123\"}'
+curl.exe -X POST http://localhost:8080/auth/login `
+  -H "Content-Type: application/json" `
+  -d '{\"username\":\"testuser\",\"password\":\"testpass123\"}'
 
 ```
 
-### 2. TCP Sync (Using PowerShell Socket)
-
-Open a new PowerShell window to act as a "Listening Device":
+### 2. Test CLI Application
 
 ```powershell
-$client = New-Object System.Net.Sockets.TCPClient("localhost", 9090); `
-$stream = $client.GetStream(); $writer = New-Object System.IO.StreamWriter($stream); `
-$writer.AutoFlush = $true; $writer.WriteLine('{"user_id":"YOUR_USER_ID_HERE"}'); `
-$reader = New-Object System.IO.StreamReader($stream); `
-while($client.Connected) { $line = $reader.ReadLine(); if($line) { Write-Host "🔔 SYNC RECEIVED: $line" -ForegroundColor Cyan } }
+.\mangahub.exe auth login
+.\mangahub.exe manga search "One Piece"
+.\mangahub.exe chat join
 
 ```
 
-### 3. UDP Notifications
+### 3. Test TCP Server
 
-Send a manual notification via PowerShell:
+Using PowerShell (if you don't have ncat):
 
 ```powershell
-$udp = New-Object System.Net.Sockets.UdpClient; `
-$udp.Connect("127.0.0.1", 9091); `
-$data = [System.Text.Encoding]::ASCII.GetBytes("New Release: One Piece Chapter 1111 is now available!"); `
-$udp.Send($data, $data.Length); $udp.Close()
+# Connect to TCP
+$client = New-Object System.Net.Sockets.TcpClient("localhost", 9090)
+$stream = $client.GetStream()
+$writer = New-Object System.IO.StreamWriter($stream)
+$writer.AutoFlush = $true
+$writer.WriteLine('{"type":"auth","token":"YOUR_TOKEN"}')
+
+```
+
+### 4. Test UDP Server (via PowerShell)
+
+```powershell
+$udpclient = New-Object System.Net.Sockets.UdpClient
+$udpclient.Connect("localhost", 9091)
+$bytes = [System.Text.Encoding]::ASCII.GetBytes("SUBSCRIBE")
+$udpclient.Send($bytes, $bytes.Length)
 
 ```
 
@@ -175,24 +207,40 @@ $udp.Send($data, $data.Length); $udp.Close()
 
 ## Database Management
 
-The project uses SQLite. On Windows, you can manage the database via:
+### Using DBeaver
 
-1. **DBeaver:** Download the Windows version from [dbeaver.io](https://dbeaver.io/). Point it to the `mangahub.db` file.
-2. **SQLite CLI:**
-* Download `sqlite-tools-win32-x86.zip` from [sqlite.org](https://www.sqlite.org/download.html).
-* Run: `.\sqlite3.exe mangahub.db`
+1. Download from [dbeaver.io](https://dbeaver.io/).
+2. Create a new **SQLite** connection.
+3. Path: `C:\Users\YourName\Documents\mangahub\mangahub.db`
 
+### Database Location Environment Variable
 
+In PowerShell:
 
----
+```powershell
+$env:DB_PATH="C:\path\to\mangahub.db"
+go run cmd\api-server\main.go
 
-## Windows-Specific Notes ⚠️
-
-* **File Paths:** Always use backslashes `\` in CMD/PowerShell for directory navigation.
-* **Execution Policy:** If script execution is blocked, run PowerShell as Administrator and execute: `Set-ExecutionPolicy RemoteSigned`.
-* **Windows Firewall:** When running the servers for the first time, click **"Allow Access"** for both Private and Public networks to enable TCP/UDP traffic.
-* **Environment Variables:** After adding `protoc` or `go/bin` to the Path, you **must restart** your Terminal/IDE for the changes to take effect.
+```
 
 ---
 
-*Project by Hung Khang - Network Programming 2025*
+## Troubleshooting
+
+* **Port Already in Use**: Run `netstat -ano | findstr :8080` to find the Process ID (PID), then run `taskkill /F /PID <PID>` to stop it.
+* **Script Execution Blocked**: If you cannot run Go commands, run PowerShell as Administrator and type: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned`.
+* **Database Locked**: Ensure you close DBeaver or any other database browser before running the server, as SQLite only allows one write-access process at a time.
+* **Path Issues**: Always use backslashes `\` for file paths in Windows CMD/PowerShell, or use double backslashes `\\` inside Go environment variables.
+
+---
+
+**Quick Start Summary (Windows PowerShell):**
+
+```powershell
+go mod tidy
+cd pkg\proto; protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative manga.proto; cd ..\..
+go build -o mangahub.exe cmd\cli-app\main.go
+# Start API Server
+go run cmd\api-server\main.go
+
+```
