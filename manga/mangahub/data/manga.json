@@ -1398,5 +1398,705 @@
     "chapter_count": 210,
     "description": "This is a manually entered description for One Piece Vol. 11.",
     "source": "Manual"
+  },
+  {
+    "id": 101,
+    "title": "Attack on Titan",
+    "author": "Hajime Isayama",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Dark Fantasy"
+    ],
+    "status": "Completed",
+    "chapter_count": 139,
+    "description": "Humanity lives inside cities surrounded by enormous walls as a defense against Titans.",
+    "source": "Manual"
+  },
+  {
+    "id": 102,
+    "title": "Death Note",
+    "author": "Tsugumi Ohba",
+    "genres": [
+      "Shounen",
+      "Thriller",
+      "Psychological"
+    ],
+    "status": "Completed",
+    "chapter_count": 108,
+    "description": "A high school student finds a supernatural notebook that allows him to kill anyone.",
+    "source": "Manual"
+  },
+  {
+    "id": 103,
+    "title": "Demon Slayer",
+    "author": "Koyoharu Gotouge",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Supernatural"
+    ],
+    "status": "Completed",
+    "chapter_count": 205,
+    "description": "A boy fights demons after his family is slaughtered and his sister becomes one.",
+    "source": "Manual"
+  },
+  {
+    "id": 104,
+    "title": "My Hero Academia",
+    "author": "Kohei Horikoshi",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Superhero"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 400,
+    "description": "A world where people with superpowers called Quirks are the norm.",
+    "source": "Manual"
+  },
+  {
+    "id": 105,
+    "title": "Tokyo Ghoul",
+    "author": "Sui Ishida",
+    "genres": [
+      "Seinen",
+      "Dark Fantasy",
+      "Horror"
+    ],
+    "status": "Completed",
+    "chapter_count": 143,
+    "description": "A college student becomes a half-ghoul after a deadly encounter.",
+    "source": "Manual"
+  },
+  {
+    "id": 106,
+    "title": "Fullmetal Alchemist",
+    "author": "Hiromu Arakawa",
+    "genres": [
+      "Shounen",
+      "Adventure",
+      "Fantasy"
+    ],
+    "status": "Completed",
+    "chapter_count": 116,
+    "description": "Two brothers search for the Philosopher's Stone to restore their bodies.",
+    "source": "Manual"
+  },
+  {
+    "id": 107,
+    "title": "Hunter x Hunter",
+    "author": "Yoshihiro Togashi",
+    "genres": [
+      "Shounen",
+      "Adventure",
+      "Action"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 390,
+    "description": "A young boy searches for his father who is a legendary Hunter.",
+    "source": "Manual"
+  },
+  {
+    "id": 108,
+    "title": "Jujutsu Kaisen",
+    "author": "Gege Akutami",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Supernatural"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 245,
+    "description": "A high school student joins a secret organization to fight Curses.",
+    "source": "Manual"
+  },
+  {
+    "id": 109,
+    "title": "Chainsaw Man",
+    "author": "Tatsuki Fujimoto",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Dark Fantasy"
+    ],
+    "status": "Completed",
+    "chapter_count": 97,
+    "description": "A young man merges with a devil and becomes Chainsaw Man.",
+    "source": "Manual"
+  },
+  {
+    "id": 110,
+    "title": "Spy x Family",
+    "author": "Tatsuya Endo",
+    "genres": [
+      "Shounen",
+      "Comedy",
+      "Action"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 90,
+    "description": "A spy, an assassin, and a telepath form a fake family.",
+    "source": "Manual"
+  },
+  {
+    "id": 111,
+    "title": "Vinland Saga",
+    "author": "Makoto Yukimura",
+    "genres": [
+      "Seinen",
+      "Historical",
+      "Action"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 200,
+    "description": "A Viking warrior's journey of revenge and redemption.",
+    "source": "Manual"
+  },
+  {
+    "id": 112,
+    "title": "Vagabond",
+    "author": "Takehiko Inoue",
+    "genres": [
+      "Seinen",
+      "Historical",
+      "Action"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 327,
+    "description": "The story of legendary swordsman Miyamoto Musashi.",
+    "source": "Manual"
+  },
+  {
+    "id": 113,
+    "title": "Slam Dunk",
+    "author": "Takehiko Inoue",
+    "genres": [
+      "Shounen",
+      "Sports",
+      "Comedy"
+    ],
+    "status": "Completed",
+    "chapter_count": 276,
+    "description": "A delinquent joins the basketball team to impress a girl.",
+    "source": "Manual"
+  },
+  {
+    "id": 114,
+    "title": "Berserk",
+    "author": "Kentaro Miura",
+    "genres": [
+      "Seinen",
+      "Dark Fantasy",
+      "Action"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 364,
+    "description": "A lone warrior seeks revenge against demons.",
+    "source": "Manual"
+  },
+  {
+    "id": 115,
+    "title": "Dragon Ball",
+    "author": "Akira Toriyama",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Adventure"
+    ],
+    "status": "Completed",
+    "chapter_count": 519,
+    "description": "The adventures of Goku from childhood to adulthood.",
+    "source": "Manual"
+  },
+  {
+    "id": 116,
+    "title": "Vagabond",
+    "author": "Takehiko Inoue",
+    "genres": [
+      "Seinen",
+      "Historical",
+      "Drama"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 327,
+    "description": "Based on the novel Musashi by Eiji Yoshikawa.",
+    "source": "Manual"
+  },
+  {
+    "id": 117,
+    "title": "Monster",
+    "author": "Naoki Urasawa",
+    "genres": [
+      "Seinen",
+      "Thriller",
+      "Mystery"
+    ],
+    "status": "Completed",
+    "chapter_count": 162,
+    "description": "A surgeon's decision to save a boy leads to horrifying consequences.",
+    "source": "Manual"
+  },
+  {
+    "id": 118,
+    "title": "Parasyte",
+    "author": "Hitoshi Iwaaki",
+    "genres": [
+      "Seinen",
+      "Horror",
+      "Science Fiction"
+    ],
+    "status": "Completed",
+    "chapter_count": 64,
+    "description": "Aliens invade Earth by taking over human bodies.",
+    "source": "Manual"
+  },
+  {
+    "id": 119,
+    "title": "Kaguya-sama: Love is War",
+    "author": "Aka Akasaka",
+    "genres": [
+      "Seinen",
+      "Romance",
+      "Comedy"
+    ],
+    "status": "Completed",
+    "chapter_count": 281,
+    "description": "Two prideful geniuses try to make the other confess their love first.",
+    "source": "Manual"
+  },
+  {
+    "id": 120,
+    "title": "Horimiya",
+    "author": "HERO & Daisuke Hagiwara",
+    "genres": [
+      "Shounen",
+      "Romance",
+      "Slice of Life"
+    ],
+    "status": "Completed",
+    "chapter_count": 142,
+    "description": "A popular girl and a gloomy boy discover each other's hidden sides.",
+    "source": "Manual"
+  },
+  {
+    "id": 121,
+    "title": "Blue Lock",
+    "author": "Muneyuki Kaneshiro",
+    "genres": [
+      "Shounen",
+      "Sports",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 250,
+    "description": "300 strikers compete to become Japan's greatest egoist striker.",
+    "source": "Manual"
+  },
+  {
+    "id": 122,
+    "title": "Tokyo Revengers",
+    "author": "Ken Wakui",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Supernatural"
+    ],
+    "status": "Completed",
+    "chapter_count": 278,
+    "description": "A man travels back in time to save his girlfriend from being killed.",
+    "source": "Manual"
+  },
+  {
+    "id": 123,
+    "title": "Haikyuu!!",
+    "author": "Haruichi Furudate",
+    "genres": [
+      "Shounen",
+      "Sports",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 402,
+    "description": "A short boy dreams of becoming a volleyball champion.",
+    "source": "Manual"
+  },
+  {
+    "id": 124,
+    "title": "The Promised Neverland",
+    "author": "Kaiu Shirai",
+    "genres": [
+      "Shounen",
+      "Thriller",
+      "Mystery"
+    ],
+    "status": "Completed",
+    "chapter_count": 181,
+    "description": "Children at an orphanage discover a horrifying secret.",
+    "source": "Manual"
+  },
+  {
+    "id": 125,
+    "title": "Blue Exorcist",
+    "author": "Kazue Kato",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Supernatural"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 145,
+    "description": "The son of Satan aims to become an exorcist.",
+    "source": "Manual"
+  },
+  {
+    "id": 126,
+    "title": "Black Clover",
+    "author": "Yuki Tabata",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Fantasy"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 370,
+    "description": "A boy without magic aims to become the Wizard King.",
+    "source": "Manual"
+  },
+  {
+    "id": 127,
+    "title": "Dr. Stone",
+    "author": "Riichiro Inagaki",
+    "genres": [
+      "Shounen",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "status": "Completed",
+    "chapter_count": 232,
+    "description": "Humanity is petrified for thousands of years, one boy awakens to rebuild civilization.",
+    "source": "Manual"
+  },
+  {
+    "id": 128,
+    "title": "Fire Force",
+    "author": "Atsushi Ohkubo",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Supernatural"
+    ],
+    "status": "Completed",
+    "chapter_count": 304,
+    "description": "Firefighters with special abilities fight spontaneous human combustion.",
+    "source": "Manual"
+  },
+  {
+    "id": 129,
+    "title": "Fairy Tail",
+    "author": "Hiro Mashima",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Fantasy"
+    ],
+    "status": "Completed",
+    "chapter_count": 545,
+    "description": "A celestial wizard joins the rowdy Fairy Tail guild.",
+    "source": "Manual"
+  },
+  {
+    "id": 130,
+    "title": "Soul Eater",
+    "author": "Atsushi Ohkubo",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Fantasy"
+    ],
+    "status": "Completed",
+    "chapter_count": 117,
+    "description": "Students at Death Weapon Meister Academy fight evil souls.",
+    "source": "Manual"
+  },
+  {
+    "id": 131,
+    "title": "Noragami",
+    "author": "Adachitoka",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Supernatural"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 109,
+    "description": "A minor god seeks to build his own shrine.",
+    "source": "Manual"
+  },
+  {
+    "id": 132,
+    "title": "Mob Psycho 100",
+    "author": "ONE",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Comedy"
+    ],
+    "status": "Completed",
+    "chapter_count": 101,
+    "description": "A powerful esper tries to live a normal life.",
+    "source": "Manual"
+  },
+  {
+    "id": 133,
+    "title": "The Disastrous Life of Saiki K",
+    "author": "Shuuichi Asou",
+    "genres": [
+      "Shounen",
+      "Comedy",
+      "Supernatural"
+    ],
+    "status": "Completed",
+    "chapter_count": 281,
+    "description": "A psychic high schooler just wants peace and quiet.",
+    "source": "Manual"
+  },
+  {
+    "id": 134,
+    "title": "Akame ga Kill!",
+    "author": "Takahiro",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Fantasy"
+    ],
+    "status": "Completed",
+    "chapter_count": 80,
+    "description": "An assassin group fights to overthrow a corrupt empire.",
+    "source": "Manual"
+  },
+  {
+    "id": 135,
+    "title": "Magi",
+    "author": "Shinobu Ohtaka",
+    "genres": [
+      "Shounen",
+      "Adventure",
+      "Fantasy"
+    ],
+    "status": "Completed",
+    "chapter_count": 369,
+    "description": "A boy and his friends explore dungeons in a world inspired by Arabian Nights.",
+    "source": "Manual"
+  },
+  {
+    "id": 136,
+    "title": "D.Gray-man",
+    "author": "Katsura Hoshino",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Supernatural"
+    ],
+    "status": "Hiatus",
+    "chapter_count": 247,
+    "description": "Exorcists fight demons called Akuma.",
+    "source": "Manual"
+  },
+  {
+    "id": 137,
+    "title": "Beelzebub",
+    "author": "Ryuhei Tamura",
+    "genres": [
+      "Shounen",
+      "Comedy",
+      "Action"
+    ],
+    "status": "Completed",
+    "chapter_count": 250,
+    "description": "A delinquent becomes the babysitter for the demon lord's son.",
+    "source": "Manual"
+  },
+  {
+    "id": 138,
+    "title": "Toriko",
+    "author": "Mitsutoshi Shimabukuro",
+    "genres": [
+      "Shounen",
+      "Adventure",
+      "Action"
+    ],
+    "status": "Completed",
+    "chapter_count": 396,
+    "description": "Gourmet hunters search for rare ingredients.",
+    "source": "Manual"
+  },
+  {
+    "id": 139,
+    "title": "Assassination Classroom",
+    "author": "Yusei Matsui",
+    "genres": [
+      "Shounen",
+      "Comedy",
+      "Action"
+    ],
+    "status": "Completed",
+    "chapter_count": 180,
+    "description": "Students must assassinate their alien teacher before he destroys Earth.",
+    "source": "Manual"
+  },
+  {
+    "id": 140,
+    "title": "World Trigger",
+    "author": "Daisuke Ashihara",
+    "genres": [
+      "Shounen",
+      "Science Fiction",
+      "Action"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 215,
+    "description": "A defense organization protects Earth from dimensional invaders.",
+    "source": "Manual"
+  },
+  {
+    "id": 141,
+    "title": "Kimetsu no Yaiba",
+    "author": "Koyoharu Gotouge",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Dark Fantasy"
+    ],
+    "status": "Completed",
+    "chapter_count": 205,
+    "description": "Tanjiro fights to turn his demon sister back into a human.",
+    "source": "Manual"
+  },
+  {
+    "id": 142,
+    "title": "Ao Ashi",
+    "author": "Yugo Kobayashi",
+    "genres": [
+      "Shounen",
+      "Sports",
+      "Drama"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 330,
+    "description": "A talented football player from the countryside joins a youth academy.",
+    "source": "Manual"
+  },
+  {
+    "id": 143,
+    "title": "Kuroko no Basket",
+    "author": "Tadatoshi Fujimaki",
+    "genres": [
+      "Shounen",
+      "Sports",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 276,
+    "description": "A phantom sixth player aims to make his team the best in Japan.",
+    "source": "Manual"
+  },
+  {
+    "id": 144,
+    "title": "Eyeshield 21",
+    "author": "Riichiro Inagaki",
+    "genres": [
+      "Shounen",
+      "Sports",
+      "Comedy"
+    ],
+    "status": "Completed",
+    "chapter_count": 333,
+    "description": "A timid boy becomes the star running back of a football team.",
+    "source": "Manual"
+  },
+  {
+    "id": 145,
+    "title": "One Punch Man",
+    "author": "ONE & Yusuke Murata",
+    "genres": [
+      "Seinen",
+      "Action",
+      "Comedy"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 195,
+    "description": "A hero who can defeat any opponent with a single punch.",
+    "source": "Manual"
+  },
+  {
+    "id": 146,
+    "title": "Gintama",
+    "author": "Hideaki Sorachi",
+    "genres": [
+      "Shounen",
+      "Comedy",
+      "Action"
+    ],
+    "status": "Completed",
+    "chapter_count": 704,
+    "description": "A samurai and his friends do odd jobs in an alien-invaded Japan.",
+    "source": "Manual"
+  },
+  {
+    "id": 147,
+    "title": "Rurouni Kenshin",
+    "author": "Nobuhiro Watsuki",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Historical"
+    ],
+    "status": "Completed",
+    "chapter_count": 259,
+    "description": "A former assassin atones for his past by helping others.",
+    "source": "Manual"
+  },
+  {
+    "id": 148,
+    "title": "Yu Yu Hakusho",
+    "author": "Yoshihiro Togashi",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Supernatural"
+    ],
+    "status": "Completed",
+    "chapter_count": 175,
+    "description": "A delinquent becomes a spirit detective after dying.",
+    "source": "Manual"
+  },
+  {
+    "id": 149,
+    "title": "JoJo's Bizarre Adventure",
+    "author": "Hirohiko Araki",
+    "genres": [
+      "Shounen",
+      "Action",
+      "Adventure"
+    ],
+    "status": "Ongoing",
+    "chapter_count": 1000,
+    "description": "Generations of the Joestar family fight supernatural threats.",
+    "source": "Manual"
+  },
+  {
+    "id": 150,
+    "title": "Code Geass",
+    "author": "Goro Taniguchi",
+    "genres": [
+      "Shounen",
+      "Mecha",
+      "Drama"
+    ],
+    "status": "Completed",
+    "chapter_count": 38,
+    "description": "A prince gains the power to control anyone and leads a rebellion.",
+    "source": "Manual"
   }
 ]
